@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/RedBlood639/react-webpack/issues"
   },
-  "homepage": "https://github.com/RedBlood639/react-webpack#readme"
+  "homepage": "https://github.com/RedBlood639/react-webpack#readme",
+  "keywords": []
 }
