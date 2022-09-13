@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  font: 16px;
+  font-family: sans-serif;
+}
+
+.warning {
+  color: red;
+}
