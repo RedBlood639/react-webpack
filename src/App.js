@@ -3,6 +3,7 @@ import React from 'react'
 const Warning = React.lazy(() => import('./Warning'))
 
 const a = 'A'
+const b = 'B'
 
 class App extends React.Component {
   state = {
