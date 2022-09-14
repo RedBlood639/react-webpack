@@ -2,6 +2,8 @@ import React from 'react'
 
 const Warning = React.lazy(() => import('./Warning'))
 
+const a = 'A'
+
 class App extends React.Component {
   state = {
     count: 0,
