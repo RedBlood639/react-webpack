@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react'
 
-const Warning = React.lazy(() => import("./Warning"));
+const Warning = React.lazy(() => import('./Warning'))
 
 class App extends React.Component {
   state = {
     count: 0,
-  };
+  }
   render() {
-    const { count } = this.state;
+    const { count } = this.state
     return (
       <div>
         <h1>Hello world1</h1>
-        <h2 className={count > 10 ? "warning" : null}>Count: {count}</h2>
+        <h2 className={count > 10 ? 'warning' : null}>Count: {count}</h2>
         <button
           onClick={() => this.setState((state) => ({ count: state.count + 1 }))}
         >
@@ -28,8 +28,8 @@ class App extends React.Component {
           </React.Suspense>
         ) : null}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
